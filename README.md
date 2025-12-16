@@ -205,6 +205,12 @@ server/
 - **FastAPI Docs**: http://127.0.0.1:8004/docs
 - **ReDoc**: http://127.0.0.1:8004/redoc
 
+
+## LLM MODELS
+- claude-opus-4-1: AI 인사이트 생성
+- claude-haiku-4-5: 메타데이터 추출(쿼리 파싱), 카테고리 분류, 텍스트 생성
+
+
 ## License
 
 이 프로젝트는 한성대학교 기업연계 SW캡스톤디자인 수업에서 진행되었습니다.
