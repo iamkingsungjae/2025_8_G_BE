@@ -7,15 +7,16 @@ Panel Insight은 패널 데이터 분석 및 클러스터링을 위한 백엔드
 ## Preview
 <img width="1152" height="624" alt="패널인사이트" src="https://github.com/user-attachments/assets/758fcc30-4a6f-4612-aebc-1835bcb5b857" />
 <p align="center">
-  <div style="display:inline-block; text-align:center; width:45%;">
+  <div style="display:inline-block; width:45%; text-align:center; margin-right:2%;">
     <img src="https://github.com/user-attachments/assets/f0db4b7f-c47e-499f-982c-c8bd51325c93" width="100%" />
-    <p style="font-size:12px; margin-top:5px;">패널 검색 결과 화면</p>
+    <p style="font-size:12px; margin-top:4px;">패널 검색 결과 화면</p>
   </div>
-  <div style="display:inline-block; text-align:center; width:45%;">
+  <div style="display:inline-block; width:45%; text-align:center;">
     <img src="https://github.com/user-attachments/assets/fc2bea71-7e88-4c2d-b70c-9e377b54f837" width="100%" />
-    <p style="font-size:12px; margin-top:5px;">패널 상세 정보 및 인사이트</p>
+    <p style="font-size:12px; margin-top:4px;">패널 상세 정보 및 인사이트</p>
   </div>
 </p>
+
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d449dd77-7991-434d-8c3b-5e78c98c6ff8" width="45%" />
