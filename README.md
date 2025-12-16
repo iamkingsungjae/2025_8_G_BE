@@ -206,7 +206,7 @@ server/
 - **ReDoc**: http://127.0.0.1:8004/redoc
 
 
-## LLM MODELS
+## LLM Models
 - claude-opus-4-1: AI 인사이트 생성
 - claude-haiku-4-5: 메타데이터 추출(쿼리 파싱), 카테고리 분류, 텍스트 생성
 
