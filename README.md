@@ -4,6 +4,10 @@ https://github.com/user-attachments/assets/41e0dcd2-aeff-4c9c-8d2d-b4db43ce297c
 
 Panel Insight은 패널 데이터 분석 및 클러스터링을 위한 백엔드 API 서버입니다.
 
+## Preview
+<img width="1152" height="624" alt="패널인사이트" src="https://github.com/user-attachments/assets/758fcc30-4a6f-4612-aebc-1835bcb5b857" />
+
+
 ## Tech Stack
 
 - **FastAPI 0.115.0** - 웹 프레임워크
