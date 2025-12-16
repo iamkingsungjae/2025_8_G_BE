@@ -6,22 +6,38 @@ Panel Insight은 패널 데이터 분석 및 클러스터링을 위한 백엔드
 
 ## Preview
 <img width="1152" height="624" alt="패널인사이트" src="https://github.com/user-attachments/assets/758fcc30-4a6f-4612-aebc-1835bcb5b857" />
-<p align="center">
-  <div style="display:inline-block; width:45%; text-align:center; margin-right:2%;">
-    <img src="https://github.com/user-attachments/assets/f0db4b7f-c47e-499f-982c-c8bd51325c93" width="100%" />
-    <p style="font-size:12px; margin-top:4px;">패널 검색 결과 화면</p>
-  </div>
-  <div style="display:inline-block; width:45%; text-align:center;">
-    <img src="https://github.com/user-attachments/assets/fc2bea71-7e88-4c2d-b70c-9e377b54f837" width="100%" />
-    <p style="font-size:12px; margin-top:4px;">패널 상세 정보 및 인사이트</p>
-  </div>
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/f0db4b7f-c47e-499f-982c-c8bd51325c93" width="500"/>
+      <div style="font-size:12px;">패널 검색 결과 화면</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/fc2bea71-7e88-4c2d-b70c-9e377b54f837" width="500"/>
+      <div style="font-size:12px;">패널 상세 정보 및 인사이트</div>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/d449dd77-7991-434d-8c3b-5e78c98c6ff8" width="500"/>
+      <div style="font-size:12px;">클러스터링 UMAP 시각화 화면</div>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/b74b8ebd-f018-4bf8-800e-11e8c62e969c" width="500"/>
+      <div style="font-size:12px;">클러스터 비교 분석 화면</div>
+    </td>
+  </tr>
+</table>
 
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/d449dd77-7991-434d-8c3b-5e78c98c6ff8" width="45%" />
-  <img src="https://github.com/user-attachments/assets/b74b8ebd-f018-4bf8-800e-11e8c62e969c" width="45%" />
-</p>
+## Member
+- 유성재 / Lead, AI, Data
+- 김종유 / BE, FE
+- 문재원 / BE, AI
+- 김민수 / Data
 
 
 ## Tech Stack
@@ -126,9 +142,14 @@ server/
 │   ├── services/            # 비즈니스 로직
 │   │   ├── pinecone_pipeline.py # Pinecone 검색 파이프라인
 │   │   ├── metadata_extractor.py # 메타데이터 추출
-│   │   ├── embedding_generator.py # OpenAI 임베딩 생성
+│   │   ├── metadata_filter_extractor.py # 카테고리별 메타 데이터 필터 추출
 │   │   ├── category_classifier.py # 카테고리 분류
-│   │   └── ...
+│   │   ├── pinecone_filter_converter.py # Pinecone 필터 변환
+│   │   ├── text_generator.py # 카테고리별 텍스트 생성
+│   │   ├── embedding_generator.py # OpenAI 임베딩 생성
+│   │   ├── pinecone_searcher.py # Pinecone 검색기
+│   │   ├── pinecone_result_filter.py # Pinecone 결과 필터
+│   │   └── lifestyle_classifier.py # ai 인사이트 생성
 │   ├── core/                # 핵심 설정
 │   │   └── config.py        # 설정 관리
 │   └── utils/               # 유틸리티 함수
@@ -139,6 +160,7 @@ server/
 ## Key Features
 
 - **의미 기반 벡터 검색**: Pinecone과 OpenAI Embeddings를 활용한 임베딩 기반 검색
+- **AI 인사이트**: 	Claude Opus 4.1 을 활용한 패널 ai 인사이트
 - **HDBSCAN 클러스터링**: 밀도 기반 클러스터링 알고리즘
 - **UMAP 시각화**: 고차원 클러스터링 결과를 2D 공간으로 시각화
 - **클러스터 비교 분석**: 클러스터 간 통계적 비교 분석
