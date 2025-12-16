@@ -1,0 +1,38 @@
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Database
+psycopg[binary]==3.2.3
+pgvector==0.3.6
+sqlalchemy[asyncio]==2.0.36
+
+# Configuration
+python-dotenv==1.0.1
+pydantic-settings==2.1.0
+typing-extensions==4.8.0
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+scipy==1.11.4
+pyyaml==6.0.1
+pyarrow==14.0.1
+
+# Machine Learning & Clustering
+scikit-learn==1.3.2
+hdbscan==0.8.33
+umap-learn==0.5.5
+joblib==1.3.2
+
+
+# 벡터 검색 관련 패키지
+anthropic>=0.34.0
+openai>=1.0.0
+pinecone>=3.0.0
+
+# HTTP Client
+httpx==0.27.0
+
+# Testing
+pytest==7.4.3
