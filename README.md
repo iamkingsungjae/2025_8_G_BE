@@ -6,6 +6,11 @@ Panel Insight은 패널 데이터 분석 및 클러스터링을 위한 백엔드
 
 ## Preview
 <img width="1152" height="624" alt="패널인사이트" src="https://github.com/user-attachments/assets/758fcc30-4a6f-4612-aebc-1835bcb5b857" />
+<img width="1136" height="608" alt="패널인사이트2" src="https://github.com/user-attachments/assets/f0db4b7f-c47e-499f-982c-c8bd51325c93" />
+<img width="1125" height="632" alt="패널인사이트3" src="https://github.com/user-attachments/assets/fc2bea71-7e88-4c2d-b70c-9e377b54f837" />
+<img width="1136" height="616" alt="패널인사이트4" src="https://github.com/user-attachments/assets/d449dd77-7991-434d-8c3b-5e78c98c6ff8" />
+
+<img width="1144" height="643" alt="패널인사이트5" src="https://github.com/user-attachments/assets/b74b8ebd-f018-4bf8-800e-11e8c62e969c" />
 
 
 ## Tech Stack
