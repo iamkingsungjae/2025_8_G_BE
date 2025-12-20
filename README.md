@@ -38,10 +38,43 @@ Panel Insight은 패널 데이터 분석 및 클러스터링을 위한 백엔드
 
 
 ## Member
-- 유성재 / Lead, AI, Data
-- 김종유 / BE, FE
-- 문재원 / BE, AI
-- 김민수 / Data
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/iamkingsungjae">
+          <img src="https://avatars.githubusercontent.com/u/143139013?v=4" width="150px;" alt=""/><br />
+          <sub><b> 유성재 </b></sub>
+        </a><br />
+      </td>
+      <td align="center">
+        <a href="https://github.com/Jongyukim">
+          <img src="https://avatars.githubusercontent.com/u/139373126?v=4" width="150px;" alt=""/><br />
+          <sub><b> 김종유 </b></sub>
+        </a><br />
+      </td>
+      <td align="center">
+        <a href="https://github.com/MJW207">
+          <img src="https://avatars.githubusercontent.com/u/139373162?v=4" width="150px;" alt=""/><br />
+          <sub><b> 문재원 </b></sub>
+        </a><br />
+      </td>
+      <td align="center">
+        <a href="https://github.com/Minsu0318">
+          <img src="https://avatars.githubusercontent.com/u/143139139?v=4" width="150px;" alt=""/><br />
+          <sub><b> 김민수 </b></sub>
+        </a><br />
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Lead / AI / Data</td>
+      <td align="center">FE / BE</td>
+      <td align="center">BE / AI</td>
+      <td align="center"> Data </td>
+    </tr>
+  </tbody>
+</table>
+
 
 
 ## Tech Stack
