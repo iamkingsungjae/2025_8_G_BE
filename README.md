@@ -1,6 +1,10 @@
 # Panel Insight Backend
 
-https://github.com/user-attachments/assets/41e0dcd2-aeff-4c9c-8d2d-b4db43ce297c
+
+
+https://github.com/user-attachments/assets/27c5d55d-8c32-451f-91fc-4ab86f239ca4
+
+
 
 Panel Insight은 패널 데이터 분석 및 클러스터링을 위한 백엔드 API 서버입니다.
 
