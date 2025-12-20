@@ -1,8 +1,8 @@
 # Panel Insight Backend
 
+![와쏘베쏘 (1)](https://github.com/user-attachments/assets/2b389ff6-4910-478f-ab05-e5b1c1c36bef)
 
 
-https://github.com/user-attachments/assets/27c5d55d-8c32-451f-91fc-4ab86f239ca4
 
 
 
